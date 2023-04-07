@@ -22,4 +22,8 @@ describe("canConstructWord", function () {
   it("should return true if all letters contained", function () {
     expect(canConstructWord("abc", "abcd")).toBe(true);
   });
+
+  it("should return false if all letters contained", function () {
+    expect(canConstructWord("abcd", "abc")).toBe(false);
+  });
 });
