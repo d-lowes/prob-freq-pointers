@@ -1,4 +1,5 @@
 // add whatever parameters you deem necessary & write docstring
-function averagePair() {
+function averagePair() { 
+    console.log('hello world');
 }
 
